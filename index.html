@@ -1,0 +1,793 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kelsey-Loves-Eric.org</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/modals.css" />
+    <link rel="preload" href="images/white_paper.jpg" as="image" />
+    <link rel="preload" href="images/cream_paper.jpg" as="image" />
+  </head>
+
+  <body>
+    <!------------ top row ------------>
+    <div class="row-container" id="menu">
+      <div class="double-container">
+        <div class="menu-item-wide center-content">
+          <img
+            src="images/menu-items/thatsusfinal.png"
+            class="with-cursor"
+            id="us"
+          />
+        </div>
+        <div class="menu-item-narrow center-content">
+          <img
+            src="images/menu-items/receptionfinalll.png"
+            class="with-cursor"
+            id="reception"
+          />
+        </div>
+      </div>
+      <div class="double-container">
+        <div class="menu-item center-content">
+          <img
+            src="images/menu-items/bbqfinal.png"
+            class="with-cursor"
+            id="bbq"
+          />
+        </div>
+        <div class="menu-item center-content">
+          <img
+            src="images/menu-items/ceremonyfinal.png"
+            class="with-cursor"
+            id="ceremony"
+          />
+        </div>
+      </div>
+    </div>
+    <!------------ bottom row ------------>
+    <div class="row-container" id="menu">
+      <div class="double-container">
+        <div class="menu-item center-content">
+          <img
+            src="images/menu-items/cakefinal.png"
+            class="with-cursor"
+            id="cake&magic"
+          />
+        </div>
+        <div class="menu-item center-content">
+          <img
+            src="images/menu-items/photofinal.png"
+            class="with-cursor"
+            id="gallery"
+          />
+        </div>
+      </div>
+      <div class="double-container" id="extra">
+        <div class="menu-item center-content">
+          <img
+            src="images/menu-items/registryfinal.png"
+            class="with-cursor"
+            id="registry"
+          />
+        </div>
+        <div class="menu-item center-content">
+          <img
+            src="images/menu-items/honeymoonfinal.png"
+            class="with-cursor"
+            id="honeymoon"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!------------ modal pop-ups ------------>
+    <!------------ 1. us ------------>
+    <div class="modal center-content" id="myModal1">
+      <!-- this is the "X" button to close the modal -->
+      <span class="close" onclick="hideModal1()">&times;</span>
+      <!-- this is a new blank canvas for you to build -->
+      <div class="modal-content">
+        <div class="title-container center-content">
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_right.png"
+              class="img-large"
+            />
+          </div>
+          <div class="headline-middle block">
+            <div class="title center-content-bottom">
+              <h1>THAT'S US</h1>
+            </div>
+            <div class="subtitle center-content-top">
+              <h3><i>/ wild combination</i></h3>
+            </div>
+          </div>
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_left.png"
+              class="img-large"
+            />
+          </div>
+        </div>
+        <div class="content-container slate">
+          <div class="left-content-container overflow block" id="us-shorter">
+            <div class="text-wrapper slate block">
+              <div class="us-banner">
+                <img src="images/usbanner.jpg" id="madonna-inn" />
+              </div>
+              <p class="top-padding">
+                In 2018 we met at a Timber Timbre show at the Moroccan Lounge
+                Downtown and haven't broken eye contact since.
+              </p>
+
+              <p>
+                In 2020 we got our first apartment together and realized we were
+                both desperate for a mermaid bathroom.
+              </p>
+
+              <p>
+                In 2022 we celebrated our 3rd viewing of Mad Men at The Biltmore
+                Hotel (Joan & Roger's meeting place) with our 1st set of
+                matching rings. Currently we have 3.
+              </p>
+
+              <p>
+                On New Year's Day 2024, Eric drove Kelsey to a secret beach on
+                Kauai to watch the sunrise. She thought Eric's surprise was
+                taking her to Todd Rundgren's house... but even better, he
+                proposed!
+              </p>
+
+              <p>
+                In the near future we plan on moving a little closer to the
+                beach. We hope to rescue a small dog with a peppy personality
+                and when the feeling strikes, ghost everyone and retire to
+                Zihuatanejo.
+              </p>
+
+              <p>
+                Thank you for celebrating US in Viva Las Vegas! We are meager
+                gamblers and sparingly special-occasionally drink by tiki torch,
+                but we do live for vamping around in our high roller attire by
+                bright neon lights.
+              </p>
+            </div>
+          </div>
+          <div
+            class="right-content-container center-content slate"
+            id="us-longer"
+          >
+            <div class="photo-strip-container">
+              <img src="images/photobooth/mowhawk_everyday1.jpg" />
+            </div>
+            <div class="photo-strip-container">
+              <img src="images/photobooth/chacha_juice2.jpg" />
+            </div>
+            <div class="photo-strip-container">
+              <img src="images/photobooth/chacha_fun3.jpg" />
+            </div>
+            <div class="photo-strip-container">
+              <img src="images/photobooth/chacha_vamp4.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------ 2. reception ------------>
+    <div class="modal center-content" id="myModal2">
+      <span class="close" onclick="hideModal2()">&times;</span>
+      <div class="modal-content">
+        <div class="title-container center-content">
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_right.png"
+              class="img-large"
+            />
+          </div>
+          <div class="headline-middle block">
+            <div class="title center-content-bottom">
+              <h1>RECEPTION</h1>
+            </div>
+            <div class="subtitle center-content-top">
+              <h3><i>Detroit Style Pizza + Tiki Drinks</i></h3>
+            </div>
+          </div>
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_left.png"
+              class="img-large"
+            />
+          </div>
+        </div>
+        <div class="content-container center-content">
+          <div class="half-content-container purple center-content">
+            <img src="images/red_dwarf_lv_final.jpg" class="mobile-padding" />
+          </div>
+          <div class="half-content-container purple center-content">
+            <div class="text-wrapper purple block">
+              <h2>
+                We are so excited to celebrate with EVERYONE immediately
+                following our elopement ceremony!
+              </h2>
+              <h2 class="top-padding">Attention attendees! Stay cool!</h2>
+              <h2 class="bottom-padding">
+                Short sleeves and even shorter skirts are permissible.
+              </h2>
+
+              <h2 class="no-padding">Friday August 23, 2024 at 7:45PM</h2>
+              <h2 class="no-padding">RED DWARF</h2>
+              <h2 class="no-padding bottom-padding">1305 Vegas Valley Dr.</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------ 3. ceremony ------------>
+    <div class="modal center-content" id="myModal3">
+      <span class="close" onclick="hideModal3()">&times;</span>
+      <div class="modal-content">
+        <div class="title-container center-content">
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_right.png"
+              class="img-large"
+            />
+          </div>
+          <div class="headline-middle block">
+            <div class="title center-content-bottom">
+              <h1>CEREMONY</h1>
+            </div>
+            <div class="subtitle center-content-top">
+              <h3><i>This Will Be Our Year</i></h3>
+            </div>
+          </div>
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_left.png"
+              class="img-large"
+            />
+          </div>
+        </div>
+        <div class="content-container red center-content">
+          <div class="half-content-container center-content">
+            <img src="images/our_ceremony.jpg" class="mobile-padding" />
+          </div>
+          <div class="half-content-container center-content">
+            <div class="text-wrapper red block">
+              <h2>
+                Our elopement ceremony will take place in a tiny unholy chapel
+                in the presence of our parents and just a few close friends.
+              </h2>
+
+              <h2 class="top-padding">Attention attendees! Stay cool!</h2>
+              <h2>Short sleeves and even shorter skirts are permissible.</h2>
+
+              <h2 class="top-padding bottom-padding">
+                We'll see everyone at the Red Dwarf immediately afterwards!
+              </h2>
+
+              <h2 class="top-padding bottom-padding">
+                Please see "RECEPTION" for details.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------ 4. bbq ------------>
+    <div class="modal center-content" id="myModal4">
+      <span class="close" onclick="hideModal4()">&times;</span>
+      <div class="modal-content">
+        <div class="title-container center-content">
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_right.png"
+              class="img-large"
+            />
+          </div>
+          <div class="headline-middle block">
+            <div class="title center-content-bottom">
+              <h1>BBQ</h1>
+            </div>
+            <div class="subtitle center-content-top">
+              <h3><i>B.Y.O.Floaties</i></h3>
+            </div>
+          </div>
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_left.png"
+              class="img-large"
+            />
+          </div>
+        </div>
+        <div class="content-container center-content">
+          <div class="half-content-container green center-content">
+            <img src="images/fun_bbq_pool_party.jpg" class="mobile-padding" />
+          </div>
+          <div class="half-content-container overflow">
+            <div class="text-wrapper top-padding bottom-padding block green">
+              <h2>
+                Come by our newlywed mansion on the day after our wedding for
+                some pool time and grilling!
+              </h2>
+
+              <h2 class="top-padding bottom-padding">
+                In order to minimize crowding and maximize meaningful
+                interactions, we will have two suggested time slots - one for
+                family and one for friends. There will be plenty of
+                non-alcoholic sparkling waters, but BYOB if you want something
+                in particular!
+              </h2>
+
+              <h2 class="no-padding">Saturday August 24, 2024</h2>
+              <h2 class="no-padding">FAMILY: 11:00 AM</h2>
+              <h2 class="no-padding bottom-padding">FRIENDS: 1:00 PM</h2>
+              <h2 class="no-padding bottom-padding">
+                <i>Our AirBNB address... COMING SOON!</i>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------ 5. cake&magic ------------>
+    <div class="modal center-content" id="myModal5">
+      <span class="close" onclick="hideModal5()">&times;</span>
+      <div class="modal-content">
+        <div class="title-container center-content">
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_right.png"
+              class="img-large"
+            />
+          </div>
+          <div class="headline-middle block">
+            <div class="title center-content-bottom">
+              <h1>CAKE & MAGIC</h1>
+            </div>
+            <div class="subtitle center-content-top">
+              <h3><i>Saturday night!</i></h3>
+            </div>
+          </div>
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_left.png"
+              class="img-large"
+            />
+          </div>
+        </div>
+        <div class="content-container pink center-content">
+          <div class="half-content-container center-content">
+            <img src="images/cake_and_magic.jpg" class="mobile-padding" />
+          </div>
+          <div class="half-content-container overflow center-content">
+            <div class="text-wrapper top-padding bottom-padding block pink">
+              <h2 class="bottom-padding">ARE YOU GOING ALL IN?!</h2>
+
+              <h2 class="no-padding">Saturday August 24, 2024</h2>
+              <h2 class="top-padding">6:45 PM</h2>
+              <h2 class="no-padding">"Wedding" Cake</h2>
+              <h2 class="no-padding">Milk Bar at The Cosmopolitan</h2>
+
+              <h2 class="no-padding top-padding">8:00 PM</h2>
+              <h2 class="no-padding">David Blaine: Impossible</h2>
+              <h2 class="no-padding">Encore Theater at The Wynn</h2>
+              <h2 class="no-padding">
+                <b>
+                  <a
+                    href="https://www.ticketmaster.com/david-blaine-impossible-las-vegas-nevada-08-24-2024/event/1700609EA11E16AA"
+                    >Purchase Your Tickets Here!</a
+                  ></b
+                >
+              </h2>
+              <h3 class="no-padding top-padding-subtle bottom-padding">
+                <i>(We'll be sitting in ORCHC, Row S!)</i>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------ 6. gallery ------------>
+    <div class="modal center-content" id="myModal6">
+      <span class="close" onclick="hideModal6()">&times;</span>
+      <div class="modal-content">
+        <div class="title-container center-content">
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_right.png"
+              class="img-large"
+            />
+          </div>
+          <div class="headline-middle block">
+            <div class="title center-content-bottom">
+              <h1>PHOTO BOOTH</h1>
+            </div>
+            <div class="subtitle center-content-top">
+              <h3><i>2018 - 2024</i></h3>
+            </div>
+          </div>
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_left.png"
+              class="img-large"
+            />
+          </div>
+        </div>
+        <div class="gallery-container white-paper">
+          <!-- row 1 -->
+          <div class="gallery-row">
+            <div class="gallery-double">
+              <div class="gallery-single">
+                <img src="images/instax/1.jpg" />
+              </div>
+              <div class="gallery-single">
+                <img src="images/instax/2.jpg" />
+              </div>
+            </div>
+            <div class="gallery-double">
+              <div class="gallery-single">
+                <img src="images/instax/3.jpg" />
+              </div>
+              <div class="gallery-single">
+                <img src="images/instax/4.jpg" />
+              </div>
+            </div>
+          </div>
+          <!-- row 2 -->
+          <div class="gallery-row">
+            <div class="gallery-double">
+              <div class="gallery-single">
+                <img src="images/instax/5.jpg" />
+              </div>
+              <div class="gallery-single">
+                <img src="images/instax/6.jpg" />
+              </div>
+            </div>
+            <div class="gallery-double">
+              <div class="gallery-single">
+                <img src="images/instax/7.jpg" />
+              </div>
+              <div class="gallery-single">
+                <img src="images/instax/8.jpg" />
+              </div>
+            </div>
+          </div>
+          <!-- row 3 -->
+          <div class="gallery-row">
+            <div class="gallery-double">
+              <div class="gallery-single">
+                <img src="images/instax/9.jpg" />
+              </div>
+              <div class="gallery-single">
+                <img src="images/instax/10.jpg" />
+              </div>
+            </div>
+            <div class="gallery-double">
+              <div class="gallery-single">
+                <img src="images/instax/11.jpg" />
+              </div>
+              <div class="gallery-single">
+                <img src="images/instax/12.jpg" />
+              </div>
+            </div>
+          </div>
+          <!-- row 4 -->
+          <div class="gallery-row">
+            <div class="gallery-double">
+              <div class="gallery-single">
+                <img src="images/instax/13.jpg" />
+              </div>
+              <div class="gallery-single">
+                <img src="images/instax/14.jpg" />
+              </div>
+            </div>
+            <div class="gallery-double">
+              <div class="gallery-single">
+                <img src="images/instax/15.jpg" />
+              </div>
+              <div class="gallery-single">
+                <img src="images/instax/16.jpg" />
+              </div>
+            </div>
+          </div>
+          <!-- row 5 -->
+          <div class="gallery-row bottom-padding">
+            <div class="gallery-double">
+              <div class="gallery-single">
+                <img src="images/instax/17.jpg" />
+              </div>
+              <div class="gallery-single">
+                <img src="images/instax/18.jpg" />
+              </div>
+            </div>
+            <div class="gallery-double">
+              <div class="gallery-single">
+                <img src="images/instax/19.jpg" />
+              </div>
+              <div class="gallery-single">
+                <img src="images/instax/20.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------ 7. registry?? ------------>
+    <div class="modal center-content" id="myModal7">
+      <span class="close" onclick="hideModal7()">&times;</span>
+      <div class="modal-content">
+        <div class="title-container center-content">
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_right.png"
+              class="img-large"
+            />
+          </div>
+          <div class="headline-middle block">
+            <div class="title center-content-bottom">
+              <h1>REGISTRY??</h1>
+            </div>
+            <div class="subtitle center-content-top">
+              <div class="text-wrapper-generic">
+                <h3 class="no-padding">
+                  <i>What could you possibly get ...</i>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_left.png"
+              class="img-large"
+            />
+          </div>
+        </div>
+        <div class="venmo-me center-content">
+          <h2 class="venmo-padding">
+            ... for two people who have absolutely everything?
+          </h2>
+        </div>
+        <div class="gallery-container">
+          <!-- row 1 -->
+          <div class="gallery-row">
+            <div class="gallery-double center-content">
+              <img src="images/registry/draper.jpg" class="yes-padding" />
+            </div>
+            <div class="gallery-double center-content">
+              <img src="images/registry/kojima.jpg" class="yes-padding" />
+            </div>
+          </div>
+          <!-- row 2 -->
+          <div class="gallery-row">
+            <div class="gallery-double center-content">
+              <img src="images/registry/suit.jpg" class="yes-padding" />
+            </div>
+            <div class="gallery-double center-content">
+              <img src="images/registry/theremin.jpg" class="yes-padding" />
+            </div>
+          </div>
+          <!-- row 3 -->
+          <div class="gallery-row">
+            <div class="gallery-triple center-content">
+              <img src="images/registry/rundgren.jpg" class="yes-padding" />
+            </div>
+            <div class="gallery-triple center-content">
+              <img src="images/registry/bolt.jpg" class="yes-padding" />
+            </div>
+            <div class="gallery-triple center-content">
+              <img src="images/registry/pemf.jpg" class="yes-padding" />
+            </div>
+          </div>
+          <!-- row 4 -->
+          <div class="gallery-row">
+            <div class="gallery-double center-content">
+              <img src="images/registry/depp.jpg" class="yes-padding" />
+            </div>
+            <div class="gallery-double center-content">
+              <img src="images/registry/barbie.jpg" class="yes-padding" />
+            </div>
+          </div>
+          <!-- row 5 -->
+          <div class="gallery-row">
+            <div class="gallery-double center-content">
+              <img src="images/registry/lurie.jpg" class="yes-padding" />
+            </div>
+            <div class="gallery-double center-content">
+              <img src="images/registry/esalen.jpg" class="yes-padding" />
+            </div>
+          </div>
+          <!-- row 6 -->
+          <div class="gallery-row">
+            <div class="gallery-triple center-content">
+              <img src="images/registry/pen.jpg" class="yes-padding" />
+            </div>
+            <div class="gallery-triple center-content">
+              <img src="images/registry/quantum.jpg" class="yes-padding" />
+            </div>
+            <div class="gallery-triple center-content">
+              <img src="images/registry/sauna.jpg" class="yes-padding" />
+            </div>
+          </div>
+          <!-- row 7 -->
+          <div class="gallery-row">
+            <div class="gallery-double center-content">
+              <img src="images/registry/wild.jpg" class="yes-padding" />
+            </div>
+            <div class="gallery-double center-content">
+              <img src="images/registry/tail.jpg" class="yes-padding" />
+            </div>
+          </div>
+          <!-- row 8 -->
+          <div class="gallery-row">
+            <div class="gallery-double center-content">
+              <img src="images/registry/dakar.jpg" class="yes-padding" />
+            </div>
+            <div class="gallery-double center-content">
+              <img src="images/registry/canopy.jpg" class="yes-padding" />
+            </div>
+          </div>
+          <!-- row 9 -->
+          <div class="gallery-row">
+            <div class="gallery-double center-content">
+              <img src="images/registry/analemma.jpg" class="yes-padding" />
+            </div>
+            <div class="gallery-double block">
+              <div class="single center-content">
+                <img src="images/registry/pinball.jpg" class="yes-padding" />
+              </div>
+              <div class="single center-content">
+                <!-- Labyrinth YouTube player -->
+                <div id="player"></div>
+              </div>
+            </div>
+          </div>
+          <div class="venmo-me center-content">
+            <h2 class="venmo-padding bottom-padding">
+              Your presence in Las Vegas with us is the greatest gift of all,
+              but if you insist on giving a gift, we would appreciate
+              contributions towards our honeymoon fund (<a
+                href="https://venmo.com/u/Eric-Marintsch"
+                >Venmo Eric!</a
+              >). Your generosity will help us create unforgettable memories and
+              start our lives together on an incredible adventure.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------ 8. honeymoon ------------>
+    <div class="modal center-content" id="myModal8">
+      <span class="close" onclick="hideModal8()">&times;</span>
+      <div class="modal-content">
+        <div class="title-container center-content">
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_right.png"
+              class="img-large"
+            />
+          </div>
+          <div class="headline-middle block">
+            <div class="title center-content-bottom">
+              <h1>HONEYMOON</h1>
+            </div>
+            <div class="subtitle center-content-top">
+              <h3>
+                <i>Chuck a Wobbly!</i>
+              </h3>
+            </div>
+          </div>
+          <div class="logo-sides center-content">
+            <img
+              src="images/umbrella/UMBRELLA_transparent_left.png"
+              class="img-large"
+            />
+          </div>
+        </div>
+        <div class="venmo-me center-content">
+          <h2 class="venmo-padding">
+            Your presence in Las Vegas with us is the greatest gift of all, but
+            if you insist on giving a gift, we would appreciate contributions
+            towards our honeymoon fund (<a
+              href="https://venmo.com/u/Eric-Marintsch"
+              >Venmo Eric!</a
+            >). Your generosity will help us create unforgettable memories and
+            start our lives together on an incredible adventure.
+          </h2>
+        </div>
+        <div class="content-container-auto blue overflow center-content">
+          <div class="left center-content">
+            <img
+              src="images/our_honeymoon_collage.jpg"
+              class="mobile-padding yes-padding"
+            />
+          </div>
+          <div class="right">
+            <div class="text-wrapper blue top-padding bottom-padding block">
+              <p class="bottom-padding">
+                Our shared infatuation with marsupials, grass-fed beef, Tolkien,
+                and risky waggish behavior pointed us directly towards Oceania!
+                Here's a quick rundown of what we have planned:
+              </p>
+
+              <p>
+                PART I: After landing we're heading directly to... Aussie Ark
+                Wildlife Sanctuary! We cannot wait to explore the sanctuary and
+                cuddle joeys of all kinds. We'll also be visiting national
+                parks, having breakfast with koalas, and celebrating New Year's
+                with fireworks at the Sydney Harbour.
+              </p>
+
+              <p>
+                PART II: We head south to... the wilds of Tasmania! A week of
+                road tripping all around the island to view Tasmanian devils in
+                the wild, hike World Heritage areas, and get illuminated by the
+                largest glow-worm cave in the country!
+              </p>
+
+              <p>
+                PART III: At last with weary feet we head to New Zealand to turn
+                toward the lighted inn of the Green Dragon and the Shire at
+                Hobbiton! We will be staying on property that was used during
+                the filming of The Hobbit and enjoying some time for little
+                trips around the north island, like a visit to the National Kiwi
+                Hatchery!
+              </p>
+
+              <p>Adventure is out there! Cheers mates!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------ sound files ------------>
+    <audio
+      src="sounds/aurthur_russel_thats_us_wild_combination_1min.mp3"
+      type="audio/mp3"
+      id="aurthur"
+    ></audio>
+    <audio
+      src="sounds/starship_nothings_gonna_stop_us_now_1min.mp3"
+      type="audio/mp3"
+      id="starship"
+    ></audio>
+    <audio
+      src="sounds/zombies_this_will_be_our_year_1min.mp3"
+      type="audio/mp3"
+      id="zombies"
+    ></audio>
+    <audio
+      src="sounds/type_o_negative_summer_breeze_1min.mp3"
+      type="audio/mp3"
+      id="type"
+    ></audio>
+    <audio
+      src="sounds/watermelon_john_jane_q_1min.mp3"
+      type="audio/mp3"
+      id="watermelon"
+    ></audio>
+    <audio
+      src="sounds/wilder_pure_imagination_remix_1min.mp3"
+      type="audio/mp3"
+      id="wilder"
+    ></audio>
+    <audio
+      src="sounds/david_ruffin_anything_that_you_ask_for_1min.mp3"
+      type="audio/mp3"
+      id="david"
+    ></audio>
+    <audio
+      src="sounds/mike_cooper_paumalu_1min.mp3"
+      type="audio/mp3"
+      id="mike"
+    ></audio>
+    <script src="script.js"></script>
+  </body>
+</html>

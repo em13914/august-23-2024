@@ -1,0 +1,251 @@
+/* Add a modal pop-up window */
+/* https://en.wikipedia.org/wiki/Modal_window */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1c;
+  opacity: 0.99;
+}
+
+/* Don't cover the entire screen */
+.modal-content {
+  display: block;
+  width: 90%;
+  height: 85%;
+  background-color: black;
+  opacity: 1;
+  margin: 0;
+  overflow-y: auto; /* Enable vertical scrolling when content exceeds height */
+}
+
+/* Hide scrollbar for webkit-based browsers */
+.modal-content::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+.text-wrapper::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+.left-content-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+.half-content-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  position: fixed;
+  top: 1%;
+  right: 2%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Structure of majority modals */
+.title-container {
+  display: flex;
+  height: 17%;
+  width: 100%;
+}
+.logo-sides {
+  height: 100%;
+  width: 15%;
+  display: flex;
+}
+.headline-middle {
+  height: 100%;
+  width: 70%;
+  display: flex;
+}
+.title {
+  height: 60%;
+  width: 100%;
+  display: flex;
+}
+.subtitle {
+  height: 40%;
+  width: 100%;
+  display: flex;
+}
+.venmo-me {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.content-container {
+  display: flex;
+  height: 83%;
+  width: 100%;
+}
+.half-content-container {
+  display: flex;
+  height: 100%;
+  width: 50%;
+}
+
+/* 1. us */
+.photo-strip-container {
+  display: flex;
+  height: 100%;
+  width: calc(100% / 4);
+  justify-content: center;
+  align-items: center;
+}
+.left-content-container {
+  display: flex;
+  height: 100%;
+  width: 65%;
+}
+.right-content-container {
+  display: flex;
+  height: 100%;
+  width: 35%;
+}
+.photo-strip-container img {
+  max-height: 99%;
+  max-width: 99%;
+}
+.us-banner {
+  width: 100%;
+  height: auto;
+}
+
+/* 3. ceremony */
+.text-wrapper {
+  padding: 4% 4%;
+  height: auto;
+  width: 92%;
+  overflow-y: auto;
+}
+.overflow {
+  overflow-y: auto;
+}
+.text-wrapper-generic {
+  height: 100%;
+  width: 100%;
+}
+/* 6. gallery */
+.gallery-container {
+  display: block;
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.gallery-row {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+.gallery-triple {
+  height: 100%;
+  width: calc(100% / 3);
+  display: flex;
+}
+.gallery-double {
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+.gallery-single {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+.block {
+  display: block;
+}
+/* 7. registry */
+.single {
+  height: 50%;
+  width: 100%;
+}
+/* 8. honemoon */
+.content-container-auto {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+.left {
+  display: flex;
+  width: 50%;
+  height: auto;
+}
+.right {
+  display: flex;
+  width: 50%;
+  height: auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .content-container,
+  .content-container-auto {
+    display: block;
+  }
+  .left-content-container,
+  .right-content-container,
+  .left,
+  .right {
+    height: auto;
+    width: 100%;
+  }
+
+  .half-content-container {
+    height: auto;
+    width: 100%;
+  }
+  .gallery-container {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .photo-strip-container {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery-row {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+  .gallery-triple {
+    height: auto;
+    width: 100%;
+    display: flex;
+  }
+  .gallery-double {
+    height: auto;
+    width: 100%;
+    display: flex;
+  }
+  .single {
+    height: auto;
+    width: 100%;
+  }
+  .block {
+    display: block;
+  }
+  .half-content-container {
+    height: auto;
+    width: 100%;
+  }
+}
