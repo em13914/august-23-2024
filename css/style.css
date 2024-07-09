@@ -11,7 +11,7 @@ body {
   background-repeat: repeat;
 }
 .white-paper {
-  background-image: url("/images/white_paper.jpg");
+  background-image: url("../images/white_paper.jpg");
   background-position: center;
   background-repeat: repeat;
 }
