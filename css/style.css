@@ -6,7 +6,7 @@ body {
   height: 100%;
   margin: 0;
   display: block;
-  background-image: url("images/cream_paper.jpg");
+  background-image: url("../images/cream_paper.jpg");
   background-position: center;
   background-repeat: repeat;
 }
