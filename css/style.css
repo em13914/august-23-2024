@@ -224,6 +224,7 @@ img {
   }
   #reception {
     max-width: 85%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -249,5 +250,8 @@ img {
   p {
     font-size: 1.2rem;
     padding-bottom: 6%;
+  }
+    #reception {
+    max-width: 95%;
   }
 }
